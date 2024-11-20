@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="../images/pizzalogo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pizza Edition</title>
+    <link id="favicon" rel="icon" href="../jsload/favicon.js" type="image/x-icon">
+    <script src="../jsload/favicon.js"></script>
+    <script src="../jsload/panickey.js"></script>
+    <script src="../jsload/confirmation.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/gampage.css">
+    <title>404 Not Found</title>
+      <!--particlejs start -->
+</head>
+<body>
+  <div id="particles-js"></div>
+
+
+  <script src="jsload/particle-load.js"></script>
+
+
+  <script src="jsload/particlejsscript.js"></script>
+</body>
+</html>
+
+  <!--particlejs end -->
+
+    <style>
+        body {
+            background-color: #343434;
+            color: #f0d210;
+            font-family: 'Bebas Neue', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            font-size: 14em;
+            margin: 0;
+        }
+        p {
+            font-size: 1.5em;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 0;
+            text-align: center;
+            margin: 20px auto;
+        }
+        li {
+            margin: 10px 0;
+            font-size: 1.6em;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px; 
+        }
+        a {
+            color: #f0d210;
+            text-decoration: none;
+            border: 2px solid #f0d210;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+            display: inline-block;
+        }
+        a:hover {
+            background-color: #f0d210;
+            color: rgba(34, 34, 34);;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>404</h1>
+        <ul>
+            <li>This Page does not exist or has moved</li>
+            <li>Check the URL and try again.</li>
+            <li>Return to the homepage.</li>
+            <li>Contact support if the issue persists.</li>
+        </ul>
+        <div class="button-container">
+            <a href="/">Go to Homepage</a> 
+        </div>
+    </div>
+</body>
+</html>
